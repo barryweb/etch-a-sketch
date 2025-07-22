@@ -41,7 +41,9 @@ button.addEventListener("click", () => {
 		|| gridSize <= 0
 		|| gridSize > 100) {
 			alert("Invalid input. Input a number between 1 and 100.");
-			return;
+			gridSize = parseInt(prompt(
+				`To adjust the grid, enter a number between 1 and 100: `
+			));
 		}
 		createGrid(gridSize);
 });
