@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.flex-container {
+	max-width: 250px;
+	min-width: 250px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+#container {
+	border: 10px solid black;
+	width: 800px;
+	height: 800px;
+	margin: 3rem auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.square {
+	border: 1px solid lightgray;
+}
