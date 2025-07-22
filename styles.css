@@ -21,6 +21,7 @@
 	margin: 3rem auto;
 	display: flex;
 	flex-wrap: wrap;
+	background-color: whitesmoke;
 }
 
 .square {
